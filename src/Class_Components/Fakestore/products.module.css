@@ -1,0 +1,16 @@
+.product{
+    display: grid;
+    grid-template-columns: repeat(4,0.2fr);
+    grid-template-rows: repeat(3,0.5fr);
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+}
+
+.hover:nth-child(even):hover{
+    box-shadow: 20px 20px 20px 10px beige;
+}
+
+.hover:nth-child(odd):hover{
+    box-shadow: 20px 20px 20px 10px skyblue;
+}
